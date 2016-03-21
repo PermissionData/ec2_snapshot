@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"git.permissiondata.com/DevOps/ec2_backup_script/mock_ec2iface"
+	"github.com/PermissionData/ec2_snapshot/mock_ec2iface"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/ec2"
